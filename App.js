@@ -7,20 +7,18 @@
  */
 
 import React, {Component} from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+import {View, Text} from 'react-native';
+import {firebaseConfig} from './config';
+import {Item, Input, Label} from 'native-base';
 
 class App extends Component {
   render() {
     return (
       <View>
-        <Text>Abc</Text>
+        <Item floatingLabel>
+          <Label>Username</Label>
+          <Input />
+        </Item>
       </View>
     );
   }

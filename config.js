@@ -1,3 +1,4 @@
+import firebase from 'firebase';
 export const firebaseConfig = {
   apiKey: 'AIzaSyBXWhhw6HsoiN0-jiqXePUCdg1tZHOlxvs',
   authDomain: 'fir-operation-290ae.firebaseapp.com',
